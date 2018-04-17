@@ -23,4 +23,9 @@ public class UserServiceImplDB implements UserService {
 	public Optional<User> readUserByUuid(String uuid) {
 		return userDao.findByUuid(uuid);
 	}
+
+	@Override
+	public User updateUser(User user) {
+		return null;
+	}
 }
